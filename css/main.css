@@ -1,0 +1,30 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, nav, section {
+	display:block;
+}
+
+body {
+	background-color: #48C9B0;
+}
+
+/* MEDIA QUERIES */
+@media (min-width:400px){
+	body {
+		background-color: #52BE80;
+	}
+}
+@media (min-width:550px){
+	body{
+		background-color: #58D68D;
+	}
+}
+@media (min-width:1080px){
+	body{
+		background-color: #F4D03F;
+	}
+}
