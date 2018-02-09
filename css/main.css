@@ -9,5 +9,22 @@ article, aside, details, figcaption, figure, footer, header, nav, section {
 }
 
 body {
-	background: #48C9B0;
+	background-color: #48C9B0;
+}
+
+/* MEDIA QUERIES*/
+@media (max-width:1280px){
+	body{
+		background-color: #A569BD;
+	}
+}
+@media (max-width:999px){
+	body{
+		background-color: #5499C7;
+	}
+}
+@media (max-width:675px){
+	body{
+		background-color: #5DADE2;
+	}
 }
