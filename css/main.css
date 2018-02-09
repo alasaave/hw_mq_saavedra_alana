@@ -5,7 +5,7 @@
 }
 
 article, aside, details, figcaption, figure, footer, header, nav, section {
-	display:block;
+	display: block;
 }
 
 body {
@@ -13,18 +13,8 @@ body {
 }
 
 /* MEDIA QUERIES */
-@media (min-width:400px){
+@media (min-width: 715px) and (max-width: 960px) {
 	body {
-		background-color: #52BE80;
-	}
-}
-@media (min-width:550px){
-	body{
-		background-color: #58D68D;
-	}
-}
-@media (min-width:1080px){
-	body{
-		background-color: #F4D03F;
+		background-color: #EC7063;
 	}
 }
